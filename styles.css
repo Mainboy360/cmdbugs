@@ -113,5 +113,5 @@ img {
     flex: 1;
     border: 6px solid #ffff;
     border-style: dashed;
-    
+    border-width: 4px;
 }
