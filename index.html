@@ -1,45 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>I'm Solomon</title>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Video | Audio</title>
+  <style>
+    .esther {
+      display: flex;
+      justify-content: center;
+    }
+  .sza {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  </style>
 </head>
-<body style="background-color: #000000">
-    <!--Navigation section-->
-    <header>
-        <nav>
-            <div class="navigation">
-                <h3 class="portfolio"><span style="border-bottom: 2px solid orange; padding-bottom:10px">Portfolio</span></h3>
-                <h3 class="contact"><a href="mailto:cmdbugs@gmail.com">contact</a></h3>
-            </div>
-        </nav>
-    </header>
-
-    <!--profile picture section-->
-
-    <!---Introductory section-->
-    <div class="introductory">
-        <div class="images-container">
-            <img src="./images/me.jpg">
-        </div>
-    </div>
-    <div class="name-container">
-        <h3 class="name">I'm <span style="color: #6ec207">Solomon</span></h3>
-    </div>
-    <div class="who">
-        <p> A frontend web developer.</p>
-        <p class="what-i-do">I code for <span style="color: #FF7F3E"><i>fun</i></span>, and for the <span style="color: blueviolet;"><i>love</i></span> of it.</p>
-    </div>    
-
-    <!--footer section-->
-    <footer>
-        <div class="footer">
-            <p class="copyright">&copy; 2024 All rights reserved.</p>
-        </div>
-    </footer>
-    
-    
+<body style="background: black">
+  <h1>
+   Video Testing
+  </h1>
+  <div class="esther">
+  <video width="300px" height="100%" autoplay muted loop poster="./images/me.jpg"> 
+    <source src="video/esther.mp4" type="video/mp4">
+    your browser does not suport this video tag
+  </video>
+  </div>
+  <div class="sza">
+  <audio controls> 
+    <source src="video/szatv.mp3" type="audio/mpeg" download="Sza-ft-Justin-Timberlake.mp3">
+  </audio>
+  </div>
 </body>
 </html>
