@@ -30,10 +30,10 @@
         </div>
     </div>
     <div class="name-container">
-        <h3 class="name">I'm <span style="color: #6ec207">Solomon</span></h3>
+        <h3 class="name">I'm   <span id="typed-text" style="color: #6ec207"></span></h3>
     </div>
     <div class="who">
-        <p> A frontend web developer.</p>
+        <p><span id="typed-text-para"> </span></p>
         <p class="what-i-do">I code for <span style="color: #FF7F3E"><i>fun</i></span>, and for the <span style="color: blueviolet;"><i>love</i></span> of it.</p>
     </div>    
 
@@ -44,6 +44,15 @@
         </div>
     </footer>
     
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+<script>
+  new Typed('#typed-text', {
+    strings: ['Solomon...', "a Web developer", "a writer", "a drummer."],
+    typeSpeed: 500,
+    backSpeed: 150,
+    loop: true,
+  });
+</script>
 </body>
 </html>
