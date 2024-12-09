@@ -9,6 +9,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>I'm Solomon</title>
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-petch-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+  
+  
+  .
+  /* Change the cursor color */
+.typejs-cursor {
+  color: yellow;  /* Change to your desired color */
+}
+  
+    
 </head>
 <body style="background-color: #000000">
     <!--Navigation section-->
@@ -29,8 +102,8 @@
             <img src="./images/me.jpg">
         </div>
     </div>
-    <div class="name-container">
-        <h3 class="name"> <span id="typed-text" style="color: #6ec207"></span></h3>
+    <div class="name-container typejs-cursor">
+        <h3 class="name"> <span id="typed-text"   style="color: #6ec207"></span></h3>
     </div>
     <div class="who">
         <p><span id="typed-text-para"> </span></p>
@@ -52,6 +125,7 @@
     typeSpeed: 400,
     backSpeed: 100,
     loop: true,
+      cursorChar: "_",
   });
 </script>
 </body>
