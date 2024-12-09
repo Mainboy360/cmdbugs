@@ -32,6 +32,9 @@ body {
     border-style: double;
 }
 
+#typed-text {
+    text-align: center;
+}
 
 /*introductory section*/
 
