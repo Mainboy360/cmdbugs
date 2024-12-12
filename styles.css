@@ -62,8 +62,10 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    margin-top: 50px;
     margin-right: 20px;
     margin-left: 20px;
+    text-transform: capitalize;
 }
 
 
@@ -110,7 +112,7 @@ a:visited {
     color: #fff;
 }
 
-img {
+img[src$="jpg"] {
     height: 100%;
     border-radius: 50%;
     width: 250px;
@@ -119,3 +121,89 @@ img {
     border-style: double;
     border-color: #fff;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-petch-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  /*  font-style: italic; */
+}
+
+  .together {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    text-transform: capitalize;
+  }
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+
+
+img[src$="svg"] {
+  width: 40px;
+  height: 100%;
+}
+  
+  
