@@ -12,29 +12,32 @@
     <!--Navigation section-->
     <header>
         <nav>
-            <div class="navigation">
+            <div class="navigation-container">
                 <h3 class="portfolio"><span style="border-bottom: 2px solid orange; padding-bottom:10px">Portfolio</span></h3>
                 <h3 class="contact"><a href="mailto:cmdbugs@gmail.com">contact</a></h3>
             </div>
         </nav>
     </header>
 
-    <!--profile picture section-->
-
-    <!---Introductory section-->
-    <div class="introductory">
+    <!---Hero image section-->
+    <div class="hero-image-container">
         <div class="images-container">
-            <img src="images/me.jpg">
+            <img src="images/solomon.jpg" alt="my picture">
         </div>
     </div>
     <div class="name-container chakra-petch-bold-italic">
-        <p class="name"> <span id="introduction" style="color: #F3F3E0"></span></p>
+        <p class="name"> <span id="welcome-address" style="color: #F3F3E0"></span></p>
     </div>
-    <div class="socials">
-      <a href="https://x.com/CmDbugs18677?s=09"><img src="./images/twitter.svg" alt="twitter logo"></a>
-      <a href="https://www.instagram.com/cmd_bugs?igsh=YzljYTk1ODg3Zg=="><img src="./images/instagram.svg" alt="instagram logo"></a>
-      <a href="#"><img src="./images/facebook.svg" alt="facebook logo"></a>
-    </div>
+    <div class="social-media-container">
+      <div class="christmas-cap">
+        <a href="https://xmasmessage2024.vercel.app"><img src="images/christmas-cap.png"></a>
+      </div>
+       <div class="social-media-handle">
+        <a href="https://x.com/CmDbugs18677?s=09" target="_blank"><img src="images/twitter.svg" alt="twitter logo"></a>
+        <a href="https://www.instagram.com/cmd_bugs?igsh=YzljYTk1ODg3Zg==" target="_blank"><img src="images/instagram.svg" alt="instagram logo"></a>
+        <a href="#"><img src="images/facebook.svg" alt="christmas cap"></a>
+       </div>
+      </div>
 
     <!--footer section-->
     <footer>
@@ -49,14 +52,14 @@
      <script>
     // Array of words
     const words = [
-      "welcome<span style='color: #0D92F4; font-size: 3rem'>!!</span>", "I'm Solomon<span style='color: #0D92F4; font-size: 5rem'>.</span>", "a web developer<span style='color: #0D92F4; font-size: 5rem'>.</span>", "a writer<span style='color: #0D92F4; font-size: 5rem'>.</span>", "a drummer<span style='color: #0D92F4; font-size: 5rem'>.</span>", " a freelancer<span style='color: #0D92F4; font-size: 5rem'>.</span>", 
-        "and more<span style='color: #0D92F4;font-size: 5rem'>...</span>"];
+      "Merry Christmas<span style='color: red; font-size: 3rem'>🌲</span>", "I'm Solomon<span style='color: #0D92F4; font-size: 5rem'>.</span>", "a web developer<span style='color: #0D92F4; font-size: 5rem'>.</span>", "a writer<span style='color: #0D92F4; font-size: 5rem'>.</span>", "a drummer<span style='color: #0D92F4; font-size: 5rem'>.</span>", " a freelancer<span style='color: #0D92F4; font-size: 5rem'>.</span>", 
+        "and more<span style='color: #0D92F4;font-size: 5rem'>...</span>",];
 
     let currentIndex = 0;  // Start at the first word
 
     // Set an interval to change the text every 2 seconds (2000 milliseconds)
     setInterval(function() {
-      const element = document.getElementById('introduction');
+      const element = document.getElementById('welcome-address');
       
       // Update the text to the current word in the array
       element.innerHTML = words[currentIndex];
