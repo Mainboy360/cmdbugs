@@ -197,11 +197,6 @@ welcome-address {
 }
 
 
-.christmas-cap {
-  display: flex;
-  align-self: center;
-}
-
 .social-media-handle {
   display: flex;
   gap: 20px;
